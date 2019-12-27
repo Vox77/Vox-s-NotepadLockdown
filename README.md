@@ -1,3 +1,3 @@
-# Vox-s-NotepadLockdown
+# Vox-s-NotepadLockdown - [Latest release] 
 Want to hide your notepad files? Here you go!
 If you need help dm my twitter @vox776
