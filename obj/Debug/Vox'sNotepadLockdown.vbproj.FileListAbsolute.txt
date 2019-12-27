@@ -1,0 +1,13 @@
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\bin\Debug\Vox'sNotepadLockdown.exe.config
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\bin\Debug\Vox'sNotepadLockdown.exe
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\bin\Debug\Vox'sNotepadLockdown.pdb
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\bin\Debug\Vox'sNotepadLockdown.xml
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox'sNotepadLockdown.vbprojAssemblyReference.cache
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox_sNotepadLockdown.Login.resources
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox_sNotepadLockdown.Resources.resources
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox'sNotepadLockdown.vbproj.GenerateResource.cache
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox'sNotepadLockdown.exe
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox'sNotepadLockdown.xml
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox'sNotepadLockdown.pdb
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox_sNotepadLockdown.Loginpage.resources
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Debug\Vox_sNotepadLockdown.Notepad.resources
