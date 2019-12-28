@@ -1,6 +1,6 @@
 ﻿Public Class Notepad
     Private Sub Notepad_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        My.Computer.Audio.Play(My.Resources.Snuff, AudioPlayMode.BackgroundLoop)
+        My.Computer.Audio.Play(My.Resources.DrowingEDEN, AudioPlayMode.BackgroundLoop)
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -8,7 +8,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        My.Computer.Audio.Play(My.Resources.Snuff, AudioPlayMode.BackgroundLoop)
+        My.Computer.Audio.Play(My.Resources.DrowingEDEN, AudioPlayMode.BackgroundLoop)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs)
@@ -87,5 +87,20 @@
 
     Private Sub ExitToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem1.Click
         End
+    End Sub
+
+    Private Sub AboutToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem1.Click
+        MsgBox("Coded by Vox77 Version 0.0.5")
+    End Sub
+
+    Private Sub PrintToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PrintToolStripMenuItem1.Click
+
+    End Sub
+
+    Private Sub PrintToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles PrintToolStripMenuItem2.Click
+        PrintDialog1.ShowDialog()
+        If PrintDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+            PrintDocument1.Print()
+        End If
     End Sub
 End Class

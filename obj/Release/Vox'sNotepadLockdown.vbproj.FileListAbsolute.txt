@@ -10,3 +10,4 @@ A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Release\Vox'sNotepadLockd
 A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Release\Vox'sNotepadLockdown.exe
 A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Release\Vox'sNotepadLockdown.xml
 A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Release\Vox'sNotepadLockdown.pdb
+A:\Repos\Vox'sNotepadLockdown\Vox'sNotepadLockdown\obj\Release\Vox'sNotepadLockdown.vbprojAssemblyReference.cache

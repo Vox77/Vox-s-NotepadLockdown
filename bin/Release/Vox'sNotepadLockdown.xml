@@ -22,12 +22,17 @@ Vox'sNotepadLockdown
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="P:Vox_sNotepadLockdown.My.Resources.Resources._5n2e747mgT2dDfUyc5aPCi">
+<member name="P:Vox_sNotepadLockdown.My.Resources.Resources.city_dawn_sunset_skyline_3337210">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:Vox_sNotepadLockdown.My.Resources.Resources.Snuff">
+<member name="P:Vox_sNotepadLockdown.My.Resources.Resources.Drowing">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:Vox_sNotepadLockdown.My.Resources.Resources.DrowingEDEN">
 <summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>

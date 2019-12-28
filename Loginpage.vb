@@ -10,6 +10,7 @@
         If a = 2 Then
             MsgBox("You're In", MsgBoxStyle.Information)
             Notepad.Show()
+            Me.Close()
         Else
             MsgBox("Good Try Dumbass", MsgBoxStyle.Critical)
 
@@ -22,5 +23,10 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Login.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Loginpage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        MsgBox("Made By @vox776 on twitter")
     End Sub
 End Class

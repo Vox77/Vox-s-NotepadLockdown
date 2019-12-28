@@ -30,6 +30,7 @@ Partial Class Loginpage
         Me.Save = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -90,7 +91,7 @@ Partial Class Loginpage
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Bahnschrift Condensed", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(354, 55)
+        Me.Label2.Location = New System.Drawing.Point(360, 109)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(89, 45)
         Me.Label2.TabIndex = 9
@@ -110,13 +111,25 @@ Partial Class Loginpage
         Me.Button1.Text = "REGISTER PAGE"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Bahnschrift SemiBold Condensed", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(731, 412)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(57, 29)
+        Me.Label4.TabIndex = 12
+        Me.Label4.Text = "V0.0.5"
+        '
         'Loginpage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Vox_sNotepadLockdown.My.Resources.Resources._5n2e747mgT2dDfUyc5aPCi
+        Me.BackgroundImage = Global.Vox_sNotepadLockdown.My.Resources.Resources.city_dawn_sunset_skyline_3337210
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Save)
@@ -141,4 +154,5 @@ Partial Class Loginpage
     Friend WithEvents Save As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label4 As Label
 End Class

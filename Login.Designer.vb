@@ -30,6 +30,7 @@ Partial Class Login
         Me.Usernamefield = New System.Windows.Forms.TextBox()
         Me.PasswordField = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label2
@@ -37,7 +38,7 @@ Partial Class Login
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Bahnschrift Condensed", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(342, 67)
+        Me.Label2.Location = New System.Drawing.Point(342, 126)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(135, 45)
         Me.Label2.TabIndex = 1
@@ -110,13 +111,25 @@ Partial Class Login
         Me.Button1.Text = "LOGIN PAGE"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Bahnschrift SemiBold Condensed", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(731, 412)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(57, 29)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "V0.0.5"
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Vox_sNotepadLockdown.My.Resources.Resources._5n2e747mgT2dDfUyc5aPCi
+        Me.BackgroundImage = Global.Vox_sNotepadLockdown.My.Resources.Resources.city_dawn_sunset_skyline_3337210
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PasswordField)
         Me.Controls.Add(Me.Usernamefield)
@@ -139,4 +152,5 @@ Partial Class Login
     Friend WithEvents Usernamefield As TextBox
     Friend WithEvents PasswordField As TextBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label4 As Label
 End Class

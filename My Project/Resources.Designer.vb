@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property _5n2e747mgT2dDfUyc5aPCi() As System.Drawing.Bitmap
+        Friend ReadOnly Property city_dawn_sunset_skyline_3337210() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_5n2e747mgT2dDfUyc5aPCi", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("city_dawn_sunset_skyline_3337210", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -73,9 +73,18 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         '''</summary>
-        Friend ReadOnly Property Snuff() As System.IO.UnmanagedMemoryStream
+        Friend ReadOnly Property Drowing() As System.IO.UnmanagedMemoryStream
             Get
-                Return ResourceManager.GetStream("Snuff", resourceCulture)
+                Return ResourceManager.GetStream("Drowing", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property DrowingEDEN() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("DrowingEDEN", resourceCulture)
             End Get
         End Property
     End Module

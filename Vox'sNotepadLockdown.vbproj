@@ -65,6 +65,21 @@
   <PropertyGroup>
     <ApplicationIcon>81Pa51pEaML._SX466_-min.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7C7687B50FF858C5D72095DE8663B64673F40A6F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Vox%27sNotepadLockdown_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Vox%27sNotepadLockdown_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -154,9 +169,14 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Vox%27sNotepadLockdown_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="81Pa51pEaML._SX466_-min.ico" />
+    <None Include="Resources\DrowingEDEN.wav" />
+    <None Include="Resources\Drowing.wav" />
+    <None Include="Resources\city-dawn-sunset-skyline-3337210.jpg" />
+    <None Include="Resources\new Back.bmp" />
     <None Include="Resources\Snuff.wav" />
     <None Include="Resources\5n2e747mgT2dDfUyc5aPCi.jpg" />
     <None Include="Resources\Backround.png" />
