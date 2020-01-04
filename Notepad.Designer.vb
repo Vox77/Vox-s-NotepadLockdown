@@ -39,6 +39,8 @@ Partial Class Notepad
         Me.SaveToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrintToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrintToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -65,8 +67,6 @@ Partial Class Notepad
         Me.BackColorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.PrintToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PrintToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -160,6 +160,19 @@ Partial Class Notepad
         Me.AboutToolStripMenuItem1.Name = "AboutToolStripMenuItem1"
         Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(52, 20)
         Me.AboutToolStripMenuItem1.Text = "About"
+        '
+        'PrintToolStripMenuItem1
+        '
+        Me.PrintToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PrintToolStripMenuItem2})
+        Me.PrintToolStripMenuItem1.Name = "PrintToolStripMenuItem1"
+        Me.PrintToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
+        Me.PrintToolStripMenuItem1.Text = "Print"
+        '
+        'PrintToolStripMenuItem2
+        '
+        Me.PrintToolStripMenuItem2.Name = "PrintToolStripMenuItem2"
+        Me.PrintToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.PrintToolStripMenuItem2.Text = "Print"
         '
         'PrintDialog1
         '
@@ -316,22 +329,9 @@ Partial Class Notepad
         Me.Label4.Font = New System.Drawing.Font("Bahnschrift SemiBold Condensed", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(794, 531)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(57, 29)
+        Me.Label4.Size = New System.Drawing.Size(50, 29)
         Me.Label4.TabIndex = 12
-        Me.Label4.Text = "V0.0.5"
-        '
-        'PrintToolStripMenuItem1
-        '
-        Me.PrintToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PrintToolStripMenuItem2})
-        Me.PrintToolStripMenuItem1.Name = "PrintToolStripMenuItem1"
-        Me.PrintToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
-        Me.PrintToolStripMenuItem1.Text = "Print"
-        '
-        'PrintToolStripMenuItem2
-        '
-        Me.PrintToolStripMenuItem2.Name = "PrintToolStripMenuItem2"
-        Me.PrintToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
-        Me.PrintToolStripMenuItem2.Text = "Print"
+        Me.Label4.Text = "V1.0.1"
         '
         'Notepad
         '

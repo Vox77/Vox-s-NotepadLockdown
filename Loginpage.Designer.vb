@@ -118,9 +118,9 @@ Partial Class Loginpage
         Me.Label4.Font = New System.Drawing.Font("Bahnschrift SemiBold Condensed", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(731, 412)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(57, 29)
+        Me.Label4.Size = New System.Drawing.Size(50, 29)
         Me.Label4.TabIndex = 12
-        Me.Label4.Text = "V0.0.5"
+        Me.Label4.Text = "V1.0.1"
         '
         'Loginpage
         '
